@@ -1,8 +1,29 @@
-.hatter{
+body{
+    margin: auto;
+}
+.formazas{
     background-color: aqua;
     border: 2px solid whitesmoke;
 }
-
+.hatter2{
+    background-color: red;
+}
 img{
     width: 200px;
+}
+.bal{
+    grid-area: bal;
+}
+.jobb{
+    grid-area: jobb;
+}
+section{
+    display: flex;
+   flex-direction: row;
+}
+.nagykép{
+    grid-area: nkep;
+}
+button{
+    height: 200px;
 }
