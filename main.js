@@ -1,7 +1,7 @@
 
 window.addEventListener("load", function () {
     const KEPEK = document.querySelectorAll("article");
-    let lista=["kep.jpg","kep2.png","kep3.png","kopasz.jpg","eznyoc.gif","kep.jpg","kep.jpg","kep.jpg"]
+    let lista=["kep.jpg","kep2.png","kep3.png","kopasz.jpg","eznyoc.gif","thefoodisfood.png","kep.jpg","kep.jpg"]
     
     for (let index = 0; index < lista.length; index++) {
         KEPEK[0].innerHTML += "<div><img src='"+lista[index]+"' alt='1' ></div>";
@@ -20,6 +20,14 @@ window.addEventListener("load", function () {
 
     }
 
+
+    const gombElem=document.querySelectorAll("section button");
+    for (let index = 0; index < lista.length; index++) {
+        gombElem[index].addEventListener("click", function(){
+            fokep[0].src+=lista[index];
+        })
+        
+    }
 
 });
 
